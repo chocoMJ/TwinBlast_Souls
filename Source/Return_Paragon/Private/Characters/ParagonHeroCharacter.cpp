@@ -3,3 +3,11 @@
 
 #include "Characters/ParagonHeroCharacter.h"
 
+#include "ParagonDebugHelper.h"
+
+void AParagonHeroCharacter::BeginPlay()
+{
+	Super::BeginPlay();
+
+	Debug::Print(TEXT("Working"));
+}

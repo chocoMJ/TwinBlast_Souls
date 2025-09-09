@@ -13,5 +13,7 @@ UCLASS()
 class RETURN_PARAGON_API AParagonHeroCharacter : public AParagonBaseCharacter
 {
 	GENERATED_BODY()
-	
+
+protected:
+	virtual void BeginPlay() override;
 };
